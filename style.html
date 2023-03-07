@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="agreement">
+      <h1>CopyWright Agreement</h1>
+      <p>
+        Pig is a simple dice game which in its basic form is playable with just
+        a single die. You win by being the first player to score 100 or more
+        points.
+      </p>
+      <p>
+        Choose a player to go first. That player throws a die and scores as many
+        points as the total shown on the die providing the die doesn’t roll a 1.
+        The player may continue rolling and accumulating points (but risk
+        rolling a 1) or end his turn.
+      </p>
+      <p>
+        If the player rolls a 1 his turn is over, he loses all points he
+        accumulated that turn, and he passes the die to the next player.
+      </p>
+      <p>Play passes from player to player until a winner is determined.</p>
+      <div id="size">
+      <button id="btno">Agree to start the Game</button>
+    </div>
+    </div>
+    <div class="container hidden">
+      <div class="main">
+        <div id="f_person">
+          <h1>Player 1</h1>
+          <button class="btn">New Game</button>
+          <p id="p1">0</p>
+          <div id="snap">
+            <p id="po">Current</p>
+            <p id="po1" class="play1">0</p>
+          </div>
+          <button class="btn0">Roll Dice</button>
+          <button class="btn1">Hold</button>
+          <div class="luddo">
+            <div class="first firsts"></div>
+            <div class="second seconds">
+              <div class="first1 first"></div>
+              <div class="first2 first"></div>
+            </div>
+            <div class="third thirds">
+              <div class="first"></div>
+              <div class="first1 first"></div>
+              <div class="first2 first"></div>
+            </div>
+            <div class="fourth fourths">
+              <div class="first1 first"></div>
+              <div class="first2 first"></div>
+              <div class="first3 first"></div>
+              <div class="first4 first"></div>
+            </div>
+            <div class="fifth fifths">
+              <div class="first1 first"></div>
+              <div class="first2 first"></div>
+              <div class="first3 first"></div>
+              <div class="first4 first"></div>
+              <div class="first"></div>
+            </div>
+          </div>
+        </div>
+        <div id="s_person">
+          <h1>Player 1</h1>
+          <p id="p2">0</p>
+          <div id="snap">
+            <p id="po">Current</p>
+            <p id="po1" class="play2">0</p>
+          </div>
+        </div>
+
+        <div id="clear"></div>
+      </div>
+      <footer>
+        <marquee><code>  &#62; Powered by Haider</code></marquee>
+      </footer>
+    </div>
+    <script src="./style.js"></script>
+  </body>
+</html>

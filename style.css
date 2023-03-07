@@ -1,0 +1,179 @@
+.agreement{
+    background-color: #333; 
+    border-radius: 20px;
+    border: 4px solid black;
+    padding-bottom: 20px;
+}
+.agreement h1{
+    color: #ccc;
+    padding-top: 20px;
+}
+.agreement p{
+    font-size: 23px;
+    text-align: justify;
+    padding: 20px;
+    color: white;
+}
+#size{
+    width: 300px;
+    margin: auto;
+}
+.agreement button{
+    cursor: pointer;
+    padding: 16px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    border-radius: 15px;
+    align-items: center;
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 68, 68);
+}
+#f_person{
+    background-color: #ffffff80;
+    /* border: 2px solid #ccc; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#s_person{
+    background-color: rgba(255, 255, 255, 0.5);
+    /* border: 2px solid #ccc; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main{
+    width: 1000px;
+    margin: auto;
+}
+#f_person{
+    width: 50%;   
+    float: left;
+}
+#s_person{
+    width: 50%;   
+    float: right;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 2em;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(179, 0, 89);
+}
+#snap{
+
+   background-color: rgba(187, 60, 98, 0.7);
+    width: 55%;
+    /* padding: 2px 0px; */
+    margin: auto;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    margin-top: 8em;
+}
+#po{
+    padding-top: 20px;
+}
+#po1{
+    padding-bottom: 20px;
+}
+
+#clear{
+    clear: both;
+}
+#f_person{
+    position: relative;
+    padding-bottom: 5em;
+}
+#s_person{
+    padding-bottom: 5em;
+}
+.btn, .btn0, .btn1{
+    position: absolute;
+    height: 40px;
+    border-radius: 17px;
+    border: 2px solid transparent;
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    padding: 11px 20px;
+}
+.btn{
+    top: 10%;
+    right: -15%;
+}
+.btn:hover, .btn0:hover, .btn1:hover{
+    background-color: rgba(244, 244, 244, 0.7);
+}
+.btn0{
+    top: 58%;
+    right: -14%;
+}
+.btn1{
+    top: 69%;
+    right: -10%;   
+}
+
+.luddo{
+    
+    height: 6.5em;
+    width: 6.5em;
+    top: 25%;
+    right: -10%;
+    position: absolute;
+    background-color: #f4f4f4;
+}
+.first{
+    height: 23px;
+    width: 23px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 36%;
+    left: 37%;
+}
+.first1{
+    top: 3%;
+    left: 70%;
+}
+.first2{
+    top: 75%;
+    left: 5%;
+}
+.first3{
+    top: 3%;
+    left:5%;
+}
+.first4{
+    top: 75%;
+    left: 70%;
+}
+
+.container{
+    padding-top: 15px;
+}
+.hidden{
+    display: none;
+}
+footer{
+    padding-top: 20px;
+    font-size: 30px;
+    color: #333;
+    width: 80%;
+    margin: auto;
+}
